@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    tools:context="com.example.ammarah.try1.Categories">
+
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        app:srcCompat="@drawable/homatrixlogosquare"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+        app:layout_constraintVertical_bias="0.066" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose Category."
+        android:textColor="@color/dark_grey"
+        android:textSize="23dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.361"
+        app:layout_constraintHorizontal_bias="0.502" />
+    <Button
+        android:layout_width="135dp"
+        android:layout_height="wrap_content"
+        android:background="@color/dark_grey"
+        android:text="Art Work"
+        android:textColor="@color/white"
+        android:textSize="16dp"
+        android:onClick="ArtOnCklick"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.196"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.551" />
+    <Button
+        android:layout_width="135dp"
+        android:layout_height="wrap_content"
+        android:background="@color/dark_grey"
+        android:text="Tailor"
+        android:textColor="@color/white"
+        android:textSize="16dp"
+        android:onClick="TailorOnClick"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.835"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.72" />
+    <Button
+        android:layout_width="135dp"
+        android:layout_height="wrap_content"
+        android:background="@color/dark_grey"
+        android:text="Programmer"
+        android:textColor="@color/white"
+        android:textSize="16dp"
+        android:onClick="ProgrammerOnClick"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.196"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.72" />
+    <Button
+        android:layout_width="135dp"
+        android:layout_height="wrap_content"
+        android:background="@color/dark_grey"
+        android:text="Food"
+        android:textColor="@color/white"
+        android:textSize="16dp"
+        android:onClick="FoodOnClick"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.835"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.551" />
+
+</android.support.constraint.ConstraintLayout>
